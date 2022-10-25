@@ -1,0 +1,29 @@
+###GET https://mighty-coast-05582.herokuapp.com/user/
+
+
+
+###
+
+POST http://localhost:5000/api/users/get-user-by-id
+Content-Type: application/json
+
+{
+    "token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MzQwOWMyYjFmM2RhYTNkMjYxMzRlMDMiLCJpYXQiOjE2NjUxODE3OTYsImV4cCI6MTY2NTI2ODE5Nn0.1DP1Xf7HNskAxE0k_nuxdY7HQOTwBuw02mjvcdlfnMI",
+    
+}
+
+###
+
+POST http://localhost:5000/api/users/register
+Content-Type: application/json
+
+{
+    "name":"James bond",
+    "email"  :"james@gmail.com",
+     "password"  :"james@gmail.com"
+}
+
+
+### get-all-transactions
+
+http://localhost:5000/api/transactions/get-all-transactions
